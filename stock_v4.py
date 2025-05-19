@@ -310,8 +310,8 @@ def screen_stocks(tickers, criteria_values, active_criteria, progress_bar_st_ele
 
 # --- Streamlit App UI ---
 def main():
-    st.set_page_config(page_title="進階股票篩選器", layout="wide")
-    st.title("📈 進階股票篩選器")
+    st.set_page_config(page_title="價值股票篩選器", layout="wide")
+    st.title("📈 價值股票篩選器")
     st.markdown("""
     從 S&P 500、NASDAQ 100、台灣上市(TWSE)、台灣上櫃(TPEx)公司或自訂列表篩選股票。
     可勾選欲啟用之篩選條件。資料將優先從本地 `tempdata` 資料夾快取 (12小時效期)，其次為記憶體快取。
